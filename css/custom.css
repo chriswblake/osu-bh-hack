@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #17153a;
+  background: #22302D;
 }
 
 #particles-js { 
@@ -187,6 +187,7 @@ header, section {
 .team-image {
   border-top-right-radius: 3em;
   border-top-left-radius: 3em;
+  border: 1px solid #eee;
 }
 
 .team-textbox {
@@ -395,7 +396,6 @@ header, section {
 .title-icon {
   width: 64px;
   height: 64px;
-  background: url("../img/icon.png");
   background-size: 64px 64px;
 }
 
@@ -466,12 +466,12 @@ p {
 
 
 .orange, .orange-hover {
-	color: #F0B036 !important;
+	color: #FE5C00 !important;
 }
 
 .orange-hover:focus, .orange-hover:hover {
     text-decoration: none;
-	color: #A07524 !important;
+	color: #FE5C00 !important;
 }
 
 .blue {
@@ -517,7 +517,7 @@ p {
 
 /* ---- Button css ---- */
 .btn-primary {
-  background-color: rgba(240, 176, 54);
+  background-color: #FE5C00;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   border-radius: 30px;
