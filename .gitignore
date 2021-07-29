@@ -1,4 +1,5 @@
-
+*.cmd
+*.ps1
 .idea/$PRODUCT_WORKSPACE_FILE$
 *.iml
 .idea/modules.xml
