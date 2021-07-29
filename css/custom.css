@@ -604,9 +604,9 @@ p {
 
 .table tbody tr td {
   vertical-align: middle;
-  font-weight: 900;
+  /* font-weight: 900; */
   font-size: 1.0rem;
-  width: 180px;
+  /* width: 180px; */
 }
 
 .schedule header div {
