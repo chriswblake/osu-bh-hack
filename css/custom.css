@@ -576,10 +576,10 @@ p {
 }
 
 /* Schedule*/
-#schedSat {
+#schedFri {
   display: inline-block;
 }
-#schedSun {
+#schedSat {
   display: inline-block;
 }
 .schedule .table {
