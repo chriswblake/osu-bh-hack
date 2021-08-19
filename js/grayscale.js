@@ -61,6 +61,11 @@ var windowResize = function() {
     $(".navbar-collapse").collapse("hide");
   });
 
+  // Closes responsive menu when a scroll trigger link is clicked
+  $(".navbar-toggler").click(function() {
+    $(".navbar-collapse").collapse("show");
+  });
+
   // Activate scrollspy to add active class to navbar items on scroll
   $("body").scrollspy({
     target: "#mainNav",
